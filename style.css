@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    padding: 20px;
+    background-color: brown;
+    color: white;
+}
+
+.opening-hours-container{
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+}
+
+caption{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+th,td{
+    border: 2px solid darkgray;
+    padding: 3px;
+}
+
+th{
+    background-color: lightgrey;
+}
+
+footer{
+    margin-top: 100px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 500px) {
+    table {
+        font-size: 15px;
+    }
+}
+
+
+.products {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 25px;
+    padding: 25px;
+}
+
+
+.product {
+    background-color: white;
+    padding: 20px;
+    border-radius: 9px;
+}
+
+.product img{
+    width: 20%;
+    border-radius: 20px;
+}
