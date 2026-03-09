@@ -34,6 +34,20 @@ caption{
     margin-bottom: 15px;
 }
 
+.button{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.button:hover{
+    background-color: brown;
+}
+
 th,td{
     border: 2px solid darkgray;
     padding: 3px;
